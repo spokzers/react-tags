@@ -38,7 +38,7 @@
     "react": "16.4.2",
     "react-dnd": "3.0.2",
     "react-dnd-html5-backend": "3.0.2",
-    "react-dom": "16.4.1"
+    "react-dom": "16.4.2"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
