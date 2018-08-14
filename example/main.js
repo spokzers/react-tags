@@ -240,23 +240,33 @@ class App extends React.Component {
 
     this.state = {
       tags: [
-                { 
-                  id: "Thailand", 
-                  text: "Thailand", 
-                  style: {
-                    backgroundColor: "red",
-                    color: "black"
-                  }
-                },
-                { 
-                  id: "India", 
-                  text: "India",
-                  style: {
-                    backgroundColor: "blue",
-                    color: "white" 
-                  }
+              { 
+                id: "Thailand", 
+                text: "Thailand",
+                styles: {
+                  backgroundColor: "#EEE",
+                  borderRadius: "10px"
                 }
-             ],
+              },
+              { 
+                id: "India", 
+                text: "India",
+                styles: {
+                  backgroundColor: "#9b59b6",
+                  color: "white" 
+                }
+              },
+              { 
+                id: "Brazil", 
+                text: "Brazil",
+                styles: {
+                  backgroundColor: "#ecf0f1",
+                  color: "#2c3e50",
+                  padding: "5px",
+                  border: "1px dashed #000"
+                }
+              }
+           ],
       suggestions: suggestions,
     };
     this.handleDelete = this.handleDelete.bind(this);
