@@ -239,7 +239,24 @@ class App extends React.Component {
     super(props);
 
     this.state = {
-      tags: [{ id: 'Thailand', text: 'Thailand' }, { id: 'India', text: 'India' }],
+      tags: [
+                { 
+                  id: "Thailand", 
+                  text: "Thailand", 
+                  style: {
+                    backgroundColor: "red",
+                    color: "black"
+                  }
+                },
+                { 
+                  id: "India", 
+                  text: "India",
+                  style: {
+                    backgroundColor: "blue",
+                    color: "white" 
+                  }
+                }
+             ],
       suggestions: suggestions,
     };
     this.handleDelete = this.handleDelete.bind(this);
